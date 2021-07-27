@@ -15,6 +15,7 @@ import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+import com.vaadin.flow.component.page.Push;
 import com.vaadin.flow.component.tabs.Tab;
 import com.vaadin.flow.component.tabs.Tabs;
 import com.vaadin.flow.component.tabs.TabsVariant;
@@ -31,6 +32,7 @@ import com.vaadin.flow.component.avatar.Avatar;
 /**
  * The main view is a top-level placeholder for other views.
  */
+@Push
 @PWA(name = "Movie Search", shortName = "Movie Search", enableInstallPrompt = false)
 @Theme(themeFolder = "moviesearch")
 @PageTitle("Main")
